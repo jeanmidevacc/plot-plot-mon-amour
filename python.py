@@ -1,5 +1,5 @@
 fig,ax=plt.subplots(figsize=(12,6))# format of the image
-
+plt.style.use('ggplot')
 # do your magic around plot
 
 plt.xlabel("Day") # Define the x axis
